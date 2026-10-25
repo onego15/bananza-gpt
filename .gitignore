@@ -1,3 +1,7 @@
 .godot/
 *.tmp
 test-output/
+node_modules/
+dist/
+playwright-report/
+.DS_Store

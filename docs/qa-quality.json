@@ -1,0 +1,299 @@
+{
+  "conditions": "1280x800, DPR1, 250 CSG edits, same cavern camera, 119 RAF frame intervals per setting; high then light, no screenshot while measuring",
+  "high": {
+    "fps": 26.90238278247501,
+    "p95FrameMs": 48.599999999998545,
+    "state": {
+      "mode": "play",
+      "region": 0,
+      "position": [
+        -0.7616690210598621,
+        0.022228398680772643,
+        20.3117898827414
+      ],
+      "velocity": [
+        -0.1017097234846118,
+        0,
+        0.08419640107231173
+      ],
+      "grounded": true,
+      "hp": 5,
+      "maxHp": 5,
+      "power": 0,
+      "shards": 1,
+      "seeds": [
+        false,
+        false,
+        false
+      ],
+      "seals": [
+        false,
+        false
+      ],
+      "bossDead": false,
+      "endingSeen": false,
+      "checkpoint": 0,
+      "playtime": 6.761999999999993,
+      "dug": 10287,
+      "edits": 249,
+      "dirtyChunks": 0,
+      "fps": 27.429467084639423,
+      "drawCalls": 1442,
+      "triangles": 1858917,
+      "enemies": [
+        {
+          "id": 0,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            -11.805933111181393,
+            -0.3017678848407206,
+            14.985076069529848
+          ],
+          "alive": true
+        },
+        {
+          "id": 1,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            11.093613255765682,
+            -2.8364192699009636,
+            11.093614092625687
+          ],
+          "alive": true
+        },
+        {
+          "id": 2,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            -15.801370024721285,
+            -2.843633734320334,
+            -0.9063775873729356
+          ],
+          "alive": true
+        },
+        {
+          "id": 3,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            14,
+            -6.122265624999998,
+            -25
+          ],
+          "alive": true
+        },
+        {
+          "id": 4,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            -7,
+            -7.281640624999997,
+            -36
+          ],
+          "alive": true
+        },
+        {
+          "id": 5,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            17,
+            -7.024609374999998,
+            -43
+          ],
+          "alive": true
+        },
+        {
+          "id": 6,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            -13,
+            -12.952734374999995,
+            -61
+          ],
+          "alive": true
+        },
+        {
+          "id": 7,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            9,
+            -13.373828124999996,
+            -68
+          ],
+          "alive": true
+        },
+        {
+          "id": 99,
+          "hp": 42,
+          "state": "idle",
+          "pos": [
+            0,
+            -12.914453124999994,
+            -73
+          ],
+          "alive": true
+        }
+      ],
+      "camera": [
+        -0.7506823963682551,
+        4.39695983856709,
+        28.070590420600162
+      ]
+    }
+  },
+  "light": {
+    "fps": 34.00097145632731,
+    "p95FrameMs": 41.69999999999709,
+    "state": {
+      "mode": "play",
+      "region": 0,
+      "position": [
+        -1.2064723291638126,
+        -0.006993672462709884,
+        20.64133296122114
+      ],
+      "velocity": [
+        -0.08047914738604778,
+        0,
+        0.05457701439701722
+      ],
+      "grounded": true,
+      "hp": 5,
+      "maxHp": 5,
+      "power": 0,
+      "shards": 1,
+      "seeds": [
+        false,
+        false,
+        false
+      ],
+      "seals": [
+        false,
+        false
+      ],
+      "bossDead": false,
+      "endingSeen": false,
+      "checkpoint": 0,
+      "playtime": 11.856599999999979,
+      "dug": 10287,
+      "edits": 249,
+      "dirtyChunks": 0,
+      "fps": 34.280117531831536,
+      "drawCalls": 918,
+      "triangles": 1280974,
+      "enemies": [
+        {
+          "id": 0,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            -12.90453073847017,
+            -2.421741208180107,
+            17.095458629109523
+          ],
+          "alive": true
+        },
+        {
+          "id": 1,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            11.09364827447431,
+            -2.836136053001123,
+            11.093648274475703
+          ],
+          "alive": true
+        },
+        {
+          "id": 2,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            -15.809119762521966,
+            -2.8428514014296495,
+            -0.906343608198154
+          ],
+          "alive": true
+        },
+        {
+          "id": 3,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            14,
+            -6.122265624999998,
+            -25
+          ],
+          "alive": true
+        },
+        {
+          "id": 4,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            -7,
+            -7.281640624999997,
+            -36
+          ],
+          "alive": true
+        },
+        {
+          "id": 5,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            17,
+            -7.024609374999998,
+            -43
+          ],
+          "alive": true
+        },
+        {
+          "id": 6,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            -13,
+            -12.952734374999995,
+            -61
+          ],
+          "alive": true
+        },
+        {
+          "id": 7,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            9,
+            -13.373828124999996,
+            -68
+          ],
+          "alive": true
+        },
+        {
+          "id": 99,
+          "hp": 42,
+          "state": "idle",
+          "pos": [
+            0,
+            -12.914453124999994,
+            -73
+          ],
+          "alive": true
+        }
+      ],
+      "camera": [
+        -1.1974335769916262,
+        4.367412605604932,
+        28.403127739792208
+      ]
+    }
+  }
+}

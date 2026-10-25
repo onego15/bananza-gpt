@@ -1,0 +1,150 @@
+{
+  "duration": 14000,
+  "startOffset": 40.2496081,
+  "method": "Playwright native page video, actual keyboard play and HUD; camera and starting position selected before recording",
+  "errors": [],
+  "final": {
+    "mode": "play",
+    "region": 0,
+    "position": [
+      -3.8815429490065645,
+      -2.4850540231438125,
+      -6.671474111810835
+    ],
+    "velocity": [
+      -0.028299162797065062,
+      0,
+      0.042034712804513055
+    ],
+    "grounded": true,
+    "hp": 5,
+    "maxHp": 5,
+    "power": 1,
+    "shards": 6,
+    "seeds": [
+      true,
+      false,
+      false
+    ],
+    "seals": [
+      false,
+      false
+    ],
+    "bossDead": false,
+    "endingSeen": false,
+    "checkpoint": 0,
+    "playtime": 15.52789999999998,
+    "dug": 443,
+    "edits": 13,
+    "dirtyChunks": 0,
+    "fps": 33.077147582449605,
+    "drawCalls": 769,
+    "triangles": 951183,
+    "enemies": [
+      {
+        "id": 0,
+        "hp": 3,
+        "state": "idle",
+        "pos": [
+          -13.816728249873504,
+          -0.6537817790806492,
+          17.944094813182446
+        ],
+        "alive": true
+      },
+      {
+        "id": 1,
+        "hp": 3,
+        "state": "idle",
+        "pos": [
+          17.55217112324251,
+          -0.8396862947110654,
+          16.389591561247375
+        ],
+        "alive": true
+      },
+      {
+        "id": 2,
+        "hp": 3,
+        "state": "idle",
+        "pos": [
+          -9.757202845180592,
+          -9.124820908855947,
+          -5.126636746584228
+        ],
+        "alive": true
+      },
+      {
+        "id": 3,
+        "hp": 3,
+        "state": "idle",
+        "pos": [
+          13.917162068870411,
+          -6.233578670160854,
+          -26.2603647823078
+        ],
+        "alive": true
+      },
+      {
+        "id": 4,
+        "hp": 3,
+        "state": "idle",
+        "pos": [
+          -5.701899927666102,
+          -7.433999164062106,
+          -36.1991313051612
+        ],
+        "alive": true
+      },
+      {
+        "id": 5,
+        "hp": 3,
+        "state": "idle",
+        "pos": [
+          17,
+          -7.024609374999998,
+          -43
+        ],
+        "alive": true
+      },
+      {
+        "id": 6,
+        "hp": 3,
+        "state": "idle",
+        "pos": [
+          -13,
+          -12.952734374999995,
+          -61
+        ],
+        "alive": true
+      },
+      {
+        "id": 7,
+        "hp": 3,
+        "state": "idle",
+        "pos": [
+          9,
+          -13.373828124999996,
+          -68
+        ],
+        "alive": true
+      },
+      {
+        "id": 99,
+        "hp": 42,
+        "state": "idle",
+        "pos": [
+          0,
+          -12.914453124999994,
+          -73
+        ],
+        "alive": true
+      }
+    ],
+    "camera": [
+      0.05095826300843758,
+      0.6007444512589483,
+      -3.6887920415383837
+    ]
+  }
+}
