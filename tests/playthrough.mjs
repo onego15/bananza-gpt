@@ -30,6 +30,8 @@ try{
   await walkTo(4,-24);await wait(700);await walkTo(-9,-30,{attack:true});await walkTo(-9,-33,{attack:true});await hold(['KeyJ']);await wait(900);await hold([]);log('first seal',await state());
   await walkTo(13,-27,{attack:true});await walkTo(13,-33,{attack:true});await hold(['KeyJ']);await wait(900);await hold([]);
   if(!(await state()).seeds[1]){await page.keyboard.down('KeyL');await wait(1300);await page.keyboard.up('KeyL');await wait(800);await walkTo(13,-33,{attack:true});await page.keyboard.press('KeyK');await wait(500);}
+  if(!(await state()).seeds[1]){await walkTo(13,-32.6,{attack:true});await wait(500);await page.keyboard.press('KeyE');await wait(900);}
+  assert.ok((await state()).seeds[1],'Excavate the lower ore around the second seed before leaving the grotto');
   log('second seed',await state());await page.screenshot({path:'test-output/crystal-play.png'});
   await walkTo(-7,-43,{attack:true});await walkTo(-7,-58,{attack:true,timeout:22000});await walkTo(-7,-60);log('temple entry',await state());await page.screenshot({path:'test-output/temple-play.png'});
   await walkTo(0,-66,{attack:true});

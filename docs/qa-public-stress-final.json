@@ -1,0 +1,678 @@
+{
+  "url": "https://onego15.github.io/bananza-gpt/?qa",
+  "sourceCommit": "1f04eee0bed7de749d37c106c880b000d8079d40",
+  "recordedAt": "2026-10-26T00:30:50.399552+00:00",
+  "results": [
+    {
+      "name": "floor excavation",
+      "value": {
+        "before": 1.0301593265744575,
+        "after": -1.0959657237368354,
+        "state": {
+          "mode": "play",
+          "region": 0,
+          "position": [
+            3.904158989532458,
+            -1.5584482161098452,
+            12.846862679270089
+          ],
+          "velocity": [
+            -0.03790668778900626,
+            0,
+            -0.24042559363806898
+          ],
+          "grounded": true,
+          "hp": 5,
+          "maxHp": 5,
+          "power": 0,
+          "shards": 2,
+          "seeds": [
+            false,
+            false,
+            false
+          ],
+          "seals": [
+            false,
+            false
+          ],
+          "bossDead": false,
+          "endingSeen": false,
+          "checkpoint": 0,
+          "playtime": 2.3269,
+          "dug": 41,
+          "edits": 1,
+          "dirtyChunks": 0,
+          "fps": 32.54758851957782,
+          "drawCalls": 1097,
+          "triangles": 1420015,
+          "enemies": [
+            {
+              "id": 0,
+              "hp": 3,
+              "state": "idle",
+              "pos": [
+                -11.484104604882065,
+                -0.22363853872604977,
+                13.696580437417406
+              ],
+              "alive": true
+            },
+            {
+              "id": 1,
+              "hp": 3,
+              "state": "idle",
+              "pos": [
+                10.542404813067458,
+                0.6264992012668721,
+                10.827951435150977
+              ],
+              "alive": true
+            },
+            {
+              "id": 2,
+              "hp": 3,
+              "state": "idle",
+              "pos": [
+                -14.142977354343543,
+                -0.5815463570918927,
+                -2.7065755065019634
+              ],
+              "alive": true
+            },
+            {
+              "id": 3,
+              "hp": 3,
+              "state": "idle",
+              "pos": [
+                14,
+                -6.122265624999998,
+                -25
+              ],
+              "alive": true
+            },
+            {
+              "id": 4,
+              "hp": 3,
+              "state": "idle",
+              "pos": [
+                -7,
+                -7.281640624999997,
+                -36
+              ],
+              "alive": true
+            },
+            {
+              "id": 5,
+              "hp": 3,
+              "state": "idle",
+              "pos": [
+                17,
+                -7.024609374999998,
+                -43
+              ],
+              "alive": true
+            },
+            {
+              "id": 6,
+              "hp": 3,
+              "state": "idle",
+              "pos": [
+                -13,
+                -12.952734374999995,
+                -61
+              ],
+              "alive": true
+            },
+            {
+              "id": 7,
+              "hp": 3,
+              "state": "idle",
+              "pos": [
+                9,
+                -13.373828124999996,
+                -68
+              ],
+              "alive": true
+            },
+            {
+              "id": 99,
+              "hp": 42,
+              "state": "idle",
+              "pos": [
+                0,
+                -12.914453124999994,
+                -73
+              ],
+              "alive": true
+            }
+          ],
+          "camera": [
+            3.9106700037276334,
+            1.767709885735363,
+            17.772274274948227
+          ]
+        }
+      }
+    },
+    {
+      "name": "ceiling excavation",
+      "value": {
+        "before": 0.2560776968797057,
+        "after": -0.406167156994341
+      }
+    },
+    {
+      "name": "retry",
+      "value": [
+        -0.06937329710237115,
+        0.08493130061474549,
+        19.818968229249784
+      ]
+    },
+    {
+      "name": "air slam",
+      "value": {
+        "before": 54,
+        "after": 189
+      }
+    },
+    {
+      "name": "oblique tunnel and camera",
+      "value": {
+        "mode": "play",
+        "region": 0,
+        "position": [
+          27.468701646250715,
+          0.2511046962738042,
+          1.94496623817226
+        ],
+        "velocity": [
+          0.0004998909030332448,
+          0,
+          -3.3273320005658196e-11
+        ],
+        "grounded": true,
+        "hp": 5,
+        "maxHp": 5,
+        "power": 0,
+        "shards": 8,
+        "seeds": [
+          false,
+          false,
+          false
+        ],
+        "seals": [
+          false,
+          false
+        ],
+        "bossDead": false,
+        "endingSeen": false,
+        "checkpoint": 0,
+        "playtime": 7.676399999999993,
+        "dug": 350,
+        "edits": 8,
+        "dirtyChunks": 0,
+        "fps": 34.5235746695601,
+        "drawCalls": 478,
+        "triangles": 549079,
+        "enemies": [
+          {
+            "id": 0,
+            "hp": 3,
+            "state": "idle",
+            "pos": [
+              -11.598174262724696,
+              -0.2621846923616361,
+              14.408737901698753
+            ],
+            "alive": true
+          },
+          {
+            "id": 1,
+            "hp": 3,
+            "state": "idle",
+            "pos": [
+              12.096406091369214,
+              0.15196950866069173,
+              13.381467325979303
+            ],
+            "alive": true
+          },
+          {
+            "id": 2,
+            "hp": 3,
+            "state": "idle",
+            "pos": [
+              -11.985329475466832,
+              -8.977928932711244,
+              -4.3106510565759955
+            ],
+            "alive": true
+          },
+          {
+            "id": 3,
+            "hp": 3,
+            "state": "idle",
+            "pos": [
+              13.95588004294096,
+              -6.195276072343293,
+              -25.876715553222166
+            ],
+            "alive": true
+          },
+          {
+            "id": 4,
+            "hp": 3,
+            "state": "idle",
+            "pos": [
+              -7,
+              -7.281640624999997,
+              -36
+            ],
+            "alive": true
+          },
+          {
+            "id": 5,
+            "hp": 3,
+            "state": "idle",
+            "pos": [
+              17,
+              -7.024609374999998,
+              -43
+            ],
+            "alive": true
+          },
+          {
+            "id": 6,
+            "hp": 3,
+            "state": "idle",
+            "pos": [
+              -13,
+              -12.952734374999995,
+              -61
+            ],
+            "alive": true
+          },
+          {
+            "id": 7,
+            "hp": 3,
+            "state": "idle",
+            "pos": [
+              9,
+              -13.373828124999996,
+              -68
+            ],
+            "alive": true
+          },
+          {
+            "id": 99,
+            "hp": 42,
+            "state": "idle",
+            "pos": [
+              0,
+              -12.914453124999994,
+              -73
+            ],
+            "alive": true
+          }
+        ],
+        "camera": [
+          22.586499625177336,
+          3.5325119388612793,
+          1.9448948891830828
+        ]
+      }
+    },
+    {
+      "name": "250-cut stress",
+      "value": {
+        "removedSamples": 10234,
+        "fps": 35.899081464842986,
+        "p95FrameMs": 41.599999999998545,
+        "state": {
+          "mode": "play",
+          "region": 0,
+          "position": [
+            -0.953263318589895,
+            -2.963387848767888,
+            20.51501660569745
+          ],
+          "velocity": [
+            0.15664896132280615,
+            0,
+            -0.3351863457466237
+          ],
+          "grounded": true,
+          "hp": 5,
+          "maxHp": 5,
+          "power": 0,
+          "shards": 11,
+          "seeds": [
+            false,
+            false,
+            false
+          ],
+          "seals": [
+            false,
+            false
+          ],
+          "bossDead": false,
+          "endingSeen": false,
+          "checkpoint": 0,
+          "playtime": 14.583899999999955,
+          "dug": 10584,
+          "edits": 257,
+          "dirtyChunks": 0,
+          "fps": 36.979369404437314,
+          "drawCalls": 1166,
+          "triangles": 1559979,
+          "enemies": [
+            {
+              "id": 0,
+              "hp": 3,
+              "state": "idle",
+              "pos": [
+                -12.90667627729258,
+                -2.42227546816037,
+                17.095254724022855
+              ],
+              "alive": true
+            },
+            {
+              "id": 1,
+              "hp": 3,
+              "state": "idle",
+              "pos": [
+                14.094125920701233,
+                -2.422351004013957,
+                17.09528925621072
+              ],
+              "alive": true
+            },
+            {
+              "id": 2,
+              "hp": 3,
+              "state": "idle",
+              "pos": [
+                -10.235276198301158,
+                -9.108619911867379,
+                -4.881705149102688
+              ],
+              "alive": true
+            },
+            {
+              "id": 3,
+              "hp": 3,
+              "state": "idle",
+              "pos": [
+                13.871465789781153,
+                -6.2899827948385605,
+                -26.582650525378916
+              ],
+              "alive": true
+            },
+            {
+              "id": 4,
+              "hp": 3,
+              "state": "idle",
+              "pos": [
+                -7,
+                -7.281640624999997,
+                -36
+              ],
+              "alive": true
+            },
+            {
+              "id": 5,
+              "hp": 3,
+              "state": "idle",
+              "pos": [
+                17,
+                -7.024609374999998,
+                -43
+              ],
+              "alive": true
+            },
+            {
+              "id": 6,
+              "hp": 3,
+              "state": "idle",
+              "pos": [
+                -13,
+                -12.952734374999995,
+                -61
+              ],
+              "alive": true
+            },
+            {
+              "id": 7,
+              "hp": 3,
+              "state": "idle",
+              "pos": [
+                9,
+                -13.373828124999996,
+                -68
+              ],
+              "alive": true
+            },
+            {
+              "id": 99,
+              "hp": 42,
+              "state": "idle",
+              "pos": [
+                0,
+                -12.914453124999994,
+                -73
+              ],
+              "alive": true
+            }
+          ],
+          "camera": [
+            -0.9539652376159433,
+            0.31932515219280344,
+            25.383857831707083
+          ]
+        }
+      }
+    },
+    {
+      "name": "performance target",
+      "value": {
+        "targetFPS": 25,
+        "passed": true
+      }
+    },
+    {
+      "name": "two reloads preserve all edits",
+      "value": {
+        "edits": 257,
+        "sample": -0.48091271519660694
+      }
+    },
+    {
+      "name": "bedrock recovery",
+      "value": {
+        "position": [
+          -0.765270640775862,
+          -9.641477977276105,
+          -30.90398196824903
+        ],
+        "bodyDensity": -0.9299817973742723
+      }
+    },
+    {
+      "name": "excavated checkpoint remains safe",
+      "value": [
+        -0.02028526169520303,
+        -0.06262533755848243,
+        19.757651034543166
+      ]
+    },
+    {
+      "name": "map and guide",
+      "value": "PASS"
+    },
+    {
+      "name": "hidden chamber treasure",
+      "value": {
+        "treasure": [
+          true,
+          false,
+          false
+        ],
+        "state": {
+          "mode": "play",
+          "region": 0,
+          "position": [
+            -11.822461288887967,
+            -8.631781748291809,
+            0.834959511626783
+          ],
+          "velocity": [
+            0.21027708864674155,
+            0,
+            -0.17529864277318497
+          ],
+          "grounded": true,
+          "hp": 6,
+          "maxHp": 6,
+          "power": 1,
+          "shards": 29,
+          "seeds": [
+            false,
+            false,
+            false
+          ],
+          "seals": [
+            false,
+            false
+          ],
+          "bossDead": false,
+          "endingSeen": false,
+          "checkpoint": 0,
+          "playtime": 20.198699999999906,
+          "dug": 11062,
+          "edits": 260,
+          "dirtyChunks": 0,
+          "fps": 29.79145978152929,
+          "drawCalls": 950,
+          "triangles": 1183115,
+          "enemies": [
+            {
+              "id": 0,
+              "hp": 3,
+              "state": "idle",
+              "pos": [
+                -9.915245144564985,
+                -2.6295104351212077,
+                11.092630309558428
+              ],
+              "alive": true
+            },
+            {
+              "id": 1,
+              "hp": 3,
+              "state": "idle",
+              "pos": [
+                11.040678927835135,
+                -2.832142909730652,
+                11.089833665044827
+              ],
+              "alive": true
+            },
+            {
+              "id": 2,
+              "hp": 3,
+              "state": "idle",
+              "pos": [
+                -15.803588314865374,
+                -2.843229876192516,
+                -0.9063043308612405
+              ],
+              "alive": true
+            },
+            {
+              "id": 3,
+              "hp": 3,
+              "state": "idle",
+              "pos": [
+                13.911975637541607,
+                -6.244146727689745,
+                -26.35475452518116
+              ],
+              "alive": true
+            },
+            {
+              "id": 4,
+              "hp": 3,
+              "state": "idle",
+              "pos": [
+                -6.907187003783889,
+                -9.836587521179016,
+                -36.90039144352124
+              ],
+              "alive": true
+            },
+            {
+              "id": 5,
+              "hp": 3,
+              "state": "idle",
+              "pos": [
+                17.093728226489223,
+                -9.628428333680821,
+                -42.906271773510774
+              ],
+              "alive": true
+            },
+            {
+              "id": 6,
+              "hp": 3,
+              "state": "idle",
+              "pos": [
+                -13,
+                -15.413671874999991,
+                -61
+              ],
+              "alive": true
+            },
+            {
+              "id": 7,
+              "hp": 3,
+              "state": "idle",
+              "pos": [
+                9,
+                -14.839453124999995,
+                -68
+              ],
+              "alive": true
+            },
+            {
+              "id": 99,
+              "hp": 42,
+              "state": "idle",
+              "pos": [
+                0,
+                -15.32070312499999,
+                -73
+              ],
+              "alive": true
+            }
+          ],
+          "camera": [
+            -11.846590837534468,
+            -4.793443934509556,
+            7.19083747157807
+          ]
+        }
+      }
+    },
+    {
+      "name": "runtime errors",
+      "value": []
+    },
+    {
+      "name": "assertions",
+      "value": "PASS: functional boundary checks"
+    }
+  ]
+}
