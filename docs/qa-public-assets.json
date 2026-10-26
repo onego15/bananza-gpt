@@ -1,0 +1,30 @@
+{
+  "url": "https://onego15.github.io/bananza-gpt/",
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 575,
+      "sha256": "91982b2bf641ba26410efdecedec9bf791facdb0c07ea382347ca4d967b5916f",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/index-SgBpQsJi.js",
+      "bytes": 611817,
+      "sha256": "e47052fbaa8d107bdceccd6a8f454391ba3cc4c730c078bd612340bcfc7ce878",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "assets/index-D3k5fNnO.css",
+      "bytes": 12465,
+      "sha256": "9efdbcbe0da3299f93d7484b57f00e216bbdc81ab4b4e380ae0088c6f0bef5a2",
+      "matchesLocalBuild": true
+    },
+    {
+      "path": "licenses/three.txt",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+      "matchesLocalBuild": true
+    }
+  ],
+  "result": "PASS"
+}

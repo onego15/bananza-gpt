@@ -138,7 +138,7 @@ function updatePlayer(dt){
   player.step+=dt*Math.hypot(player.vel.x,player.vel.z);if(player.grounded&&player.step>2.5){player.step=0;audio.noise(.045,.065,400);}
 }
 function updateEnemies(dt){
-  for(const e of enemies){if(!e.alive)continue;const delta=player.pos.clone().sub(e.pos),dist=Math.hypot(delta.x,delta.z);if(dist>32)continue;e.hit=Math.max(0,e.hit-dt);e.art.root.traverse(o=>{if(o.isMesh)o.material.emissiveIntensity=o.material.emissive.getHex()?Math.max(e.hit*9,1):0;});
+  for(const e of enemies){if(!e.alive)continue;const delta=player.pos.clone().sub(e.pos),dist=Math.hypot(delta.x,delta.z);e.art.root.visible=dist<36;if(dist>32)continue;e.hit=Math.max(0,e.hit-dt);e.art.root.traverse(o=>{if(o.isMesh)o.material.emissiveIntensity=o.material.emissive.getHex()?Math.max(e.hit*9,1):0;});
     if(e.kind==='boss'){
       e.contactCD=Math.max(0,e.contactCD-dt);
       e.active=seeds[0]&&seeds[1]&&region===2;if(!e.active)continue;ui.show('bossHud',true);ui.el('bossHealth').style.width=`${e.hp/e.maxHp*100}%`;e.timer-=dt;

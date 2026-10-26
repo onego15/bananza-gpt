@@ -1,0 +1,893 @@
+{
+  "url": "http://127.0.0.1:4173/bananza-gpt/",
+  "startedAt": "2026-10-25T23:54:40.213Z",
+  "httpStatus": 200,
+  "initial": {
+    "mode": "menu",
+    "region": 0,
+    "position": [
+      0,
+      0.07617187500000105,
+      24
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "grounded": false,
+    "hp": 5,
+    "maxHp": 5,
+    "power": 0,
+    "shards": 0,
+    "seeds": [
+      false,
+      false,
+      false
+    ],
+    "seals": [
+      false,
+      false
+    ],
+    "bossDead": false,
+    "endingSeen": false,
+    "checkpoint": 0,
+    "playtime": 0,
+    "dug": 0,
+    "edits": 0,
+    "dirtyChunks": 0,
+    "fps": 0.092544949081769,
+    "drawCalls": 1445,
+    "triangles": 1735057,
+    "enemies": [
+      {
+        "id": 0,
+        "hp": 3,
+        "state": "idle",
+        "pos": [
+          -12,
+          -0.11679687499999894,
+          13
+        ],
+        "alive": true
+      },
+      {
+        "id": 1,
+        "hp": 3,
+        "state": "idle",
+        "pos": [
+          12,
+          0.47929687500000107,
+          9
+        ],
+        "alive": true
+      },
+      {
+        "id": 2,
+        "hp": 3,
+        "state": "idle",
+        "pos": [
+          -16,
+          -0.19335937499999895,
+          -2
+        ],
+        "alive": true
+      },
+      {
+        "id": 3,
+        "hp": 3,
+        "state": "idle",
+        "pos": [
+          14,
+          -6.122265624999998,
+          -25
+        ],
+        "alive": true
+      },
+      {
+        "id": 4,
+        "hp": 3,
+        "state": "idle",
+        "pos": [
+          -7,
+          -7.281640624999997,
+          -36
+        ],
+        "alive": true
+      },
+      {
+        "id": 5,
+        "hp": 3,
+        "state": "idle",
+        "pos": [
+          17,
+          -7.024609374999998,
+          -43
+        ],
+        "alive": true
+      },
+      {
+        "id": 6,
+        "hp": 3,
+        "state": "idle",
+        "pos": [
+          -13,
+          -12.952734374999995,
+          -61
+        ],
+        "alive": true
+      },
+      {
+        "id": 7,
+        "hp": 3,
+        "state": "idle",
+        "pos": [
+          9,
+          -13.373828124999996,
+          -68
+        ],
+        "alive": true
+      },
+      {
+        "id": 99,
+        "hp": 42,
+        "state": "idle",
+        "pos": [
+          0,
+          -12.914453124999994,
+          -73
+        ],
+        "alive": true
+      }
+    ],
+    "camera": [
+      11,
+      7.5,
+      29
+    ]
+  },
+  "input": {
+    "before": {
+      "mode": "play",
+      "region": 0,
+      "position": [
+        0.022447555474748276,
+        -0.015322075998505214,
+        23.97757281410914
+      ],
+      "velocity": [
+        0.030872648698031788,
+        0,
+        -0.03027606377987343
+      ],
+      "grounded": true,
+      "hp": 5,
+      "maxHp": 5,
+      "power": 0,
+      "shards": 0,
+      "seeds": [
+        false,
+        false,
+        false
+      ],
+      "seals": [
+        false,
+        false
+      ],
+      "bossDead": false,
+      "endingSeen": false,
+      "checkpoint": 0,
+      "playtime": 0.8334999999999964,
+      "dug": 0,
+      "edits": 0,
+      "dirtyChunks": 0,
+      "fps": 18.61467620260611,
+      "drawCalls": 1447,
+      "triangles": 1838055,
+      "enemies": [
+        {
+          "id": 0,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            -11.593739142355108,
+            -0.19439800121010287,
+            13.30751597982799
+          ],
+          "alive": true
+        },
+        {
+          "id": 1,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            12.428227802252502,
+            0.423723690145087,
+            9.151654898829221
+          ],
+          "alive": true
+        },
+        {
+          "id": 2,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            -15.41679301320991,
+            -0.3130510011356369,
+            -2.2241202687746133
+          ],
+          "alive": true
+        },
+        {
+          "id": 3,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            14,
+            -6.122265624999998,
+            -25
+          ],
+          "alive": true
+        },
+        {
+          "id": 4,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            -7,
+            -7.281640624999997,
+            -36
+          ],
+          "alive": true
+        },
+        {
+          "id": 5,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            17,
+            -7.024609374999998,
+            -43
+          ],
+          "alive": true
+        },
+        {
+          "id": 6,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            -13,
+            -12.952734374999995,
+            -61
+          ],
+          "alive": true
+        },
+        {
+          "id": 7,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            9,
+            -13.373828124999996,
+            -68
+          ],
+          "alive": true
+        },
+        {
+          "id": 99,
+          "hp": 42,
+          "state": "idle",
+          "pos": [
+            0,
+            -12.914453124999994,
+            -73
+          ],
+          "alive": true
+        }
+      ],
+      "camera": [
+        0.019142855479130774,
+        4.358749165884385,
+        31.74877619865577
+      ]
+    },
+    "moved": {
+      "mode": "play",
+      "region": 0,
+      "position": [
+        -0.03836811043671819,
+        0.17335890864306155,
+        18.556033922467076
+      ],
+      "velocity": [
+        -0.14158681318032323,
+        0.2539645228583117,
+        -3.4097721028131893
+      ],
+      "grounded": true,
+      "hp": 5,
+      "maxHp": 5,
+      "power": 0,
+      "shards": 1,
+      "seeds": [
+        false,
+        false,
+        false
+      ],
+      "seals": [
+        false,
+        false
+      ],
+      "bossDead": false,
+      "endingSeen": false,
+      "checkpoint": 0,
+      "playtime": 1.891200000000001,
+      "dug": 0,
+      "edits": 0,
+      "dirtyChunks": 0,
+      "fps": 29.58871683597984,
+      "drawCalls": 1407,
+      "triangles": 1765803,
+      "enemies": [
+        {
+          "id": 0,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            -11.512182664808304,
+            -0.21664708455498605,
+            13.595777444267696
+          ],
+          "alive": true
+        },
+        {
+          "id": 1,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            13.0926503780449,
+            0.3191415699269614,
+            9.444846555209173
+          ],
+          "alive": true
+        },
+        {
+          "id": 2,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            -14.475142901326034,
+            -0.5134259732361742,
+            -2.579935832459657
+          ],
+          "alive": true
+        },
+        {
+          "id": 3,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            14,
+            -6.122265624999998,
+            -25
+          ],
+          "alive": true
+        },
+        {
+          "id": 4,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            -7,
+            -7.281640624999997,
+            -36
+          ],
+          "alive": true
+        },
+        {
+          "id": 5,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            17,
+            -7.024609374999998,
+            -43
+          ],
+          "alive": true
+        },
+        {
+          "id": 6,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            -13,
+            -12.952734374999995,
+            -61
+          ],
+          "alive": true
+        },
+        {
+          "id": 7,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            9,
+            -13.373828124999996,
+            -68
+          ],
+          "alive": true
+        },
+        {
+          "id": 99,
+          "hp": 42,
+          "state": "idle",
+          "pos": [
+            0,
+            -12.914453124999994,
+            -73
+          ],
+          "alive": true
+        }
+      ],
+      "camera": [
+        -0.02365698788222293,
+        4.509297571812313,
+        26.89653234254122
+      ]
+    },
+    "jumping": {
+      "mode": "play",
+      "region": 0,
+      "position": [
+        -0.04646054523682299,
+        1.5412553186430693,
+        18.361147422761135
+      ],
+      "velocity": [
+        -0.026975068476696104,
+        6.199199999999961,
+        -0.6496285487135779
+      ],
+      "grounded": false,
+      "hp": 5,
+      "maxHp": 5,
+      "power": 0,
+      "shards": 1,
+      "seeds": [
+        false,
+        false,
+        false
+      ],
+      "seals": [
+        false,
+        false
+      ],
+      "bossDead": false,
+      "endingSeen": false,
+      "checkpoint": 0,
+      "playtime": 2.061600000000003,
+      "dug": 0,
+      "edits": 0,
+      "dirtyChunks": 0,
+      "fps": 1.347184384636111,
+      "drawCalls": 1425,
+      "triangles": 1773061,
+      "enemies": [
+        {
+          "id": 0,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            -11.508654563247518,
+            -0.21933136906720171,
+            13.64001027261425
+          ],
+          "alive": true
+        },
+        {
+          "id": 1,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            13.194817671328387,
+            0.302968707648798,
+            9.496412693785047
+          ],
+          "alive": true
+        },
+        {
+          "id": 2,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            -14.326778127683381,
+            -0.5445153346999754,
+            -2.6360111790350427
+          ],
+          "alive": true
+        },
+        {
+          "id": 3,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            14,
+            -6.122265624999998,
+            -25
+          ],
+          "alive": true
+        },
+        {
+          "id": 4,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            -7,
+            -7.281640624999997,
+            -36
+          ],
+          "alive": true
+        },
+        {
+          "id": 5,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            17,
+            -7.024609374999998,
+            -43
+          ],
+          "alive": true
+        },
+        {
+          "id": 6,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            -13,
+            -12.952734374999995,
+            -61
+          ],
+          "alive": true
+        },
+        {
+          "id": 7,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            9,
+            -13.373828124999996,
+            -68
+          ],
+          "alive": true
+        },
+        {
+          "id": 99,
+          "hp": 42,
+          "state": "idle",
+          "pos": [
+            0,
+            -12.914453124999994,
+            -73
+          ],
+          "alive": true
+        }
+      ],
+      "camera": [
+        -0.0393304852640932,
+        5.292360235052365,
+        26.356644345083602
+      ]
+    },
+    "dug": {
+      "mode": "play",
+      "region": 0,
+      "position": [
+        -0.30703272422604094,
+        0.15423548252458225,
+        18.525084057125646
+      ],
+      "velocity": [
+        -0.15775303607324243,
+        0,
+        0.145513953970837
+      ],
+      "grounded": true,
+      "hp": 5,
+      "maxHp": 5,
+      "power": 0,
+      "shards": 3,
+      "seeds": [
+        false,
+        false,
+        false
+      ],
+      "seals": [
+        false,
+        false
+      ],
+      "bossDead": false,
+      "endingSeen": false,
+      "checkpoint": 0,
+      "playtime": 3.9708000000000157,
+      "dug": 16,
+      "edits": 1,
+      "dirtyChunks": 0,
+      "fps": 23.353118614381692,
+      "drawCalls": 1364,
+      "triangles": 1745525,
+      "enemies": [
+        {
+          "id": 0,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            -11.55674381704779,
+            -0.24573236403852375,
+            14.11782845498371
+          ],
+          "alive": true
+        },
+        {
+          "id": 1,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            14.244294461165856,
+            0.12817397303074024,
+            10.167422821140729
+          ],
+          "alive": true
+        },
+        {
+          "id": 2,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            -12.980515773987849,
+            -5.918045308328165,
+            -3.9976117439221337
+          ],
+          "alive": true
+        },
+        {
+          "id": 3,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            14,
+            -6.122265624999998,
+            -25
+          ],
+          "alive": true
+        },
+        {
+          "id": 4,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            -7,
+            -7.281640624999997,
+            -36
+          ],
+          "alive": true
+        },
+        {
+          "id": 5,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            17,
+            -7.024609374999998,
+            -43
+          ],
+          "alive": true
+        },
+        {
+          "id": 6,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            -13,
+            -12.952734374999995,
+            -61
+          ],
+          "alive": true
+        },
+        {
+          "id": 7,
+          "hp": 3,
+          "state": "idle",
+          "pos": [
+            9,
+            -13.373828124999996,
+            -68
+          ],
+          "alive": true
+        },
+        {
+          "id": 99,
+          "hp": 42,
+          "state": "idle",
+          "pos": [
+            0,
+            -12.914453124999994,
+            -73
+          ],
+          "alive": true
+        }
+      ],
+      "camera": [
+        -0.2886772376112257,
+        4.531006042920869,
+        26.27665711393862
+      ]
+    }
+  },
+  "reloaded": {
+    "mode": "menu",
+    "region": 0,
+    "position": [
+      -0.18206041402394632,
+      0.07196419300971374,
+      19.931776680513156
+    ],
+    "velocity": [
+      0,
+      0,
+      0
+    ],
+    "grounded": false,
+    "hp": 5,
+    "maxHp": 5,
+    "power": 0,
+    "shards": 3,
+    "seeds": [
+      false,
+      false,
+      false
+    ],
+    "seals": [
+      false,
+      false
+    ],
+    "bossDead": false,
+    "endingSeen": false,
+    "checkpoint": 0,
+    "playtime": 5.6459000000000135,
+    "dug": 16,
+    "edits": 1,
+    "dirtyChunks": 0,
+    "fps": 0.4517034187624955,
+    "drawCalls": 1482,
+    "triangles": 1783809,
+    "enemies": [
+      {
+        "id": 0,
+        "hp": 3,
+        "state": "idle",
+        "pos": [
+          -12,
+          -0.11679687499999894,
+          13
+        ],
+        "alive": true
+      },
+      {
+        "id": 1,
+        "hp": 3,
+        "state": "idle",
+        "pos": [
+          12,
+          0.47929687500000107,
+          9
+        ],
+        "alive": true
+      },
+      {
+        "id": 2,
+        "hp": 3,
+        "state": "idle",
+        "pos": [
+          -16,
+          -0.19335937499999895,
+          -2
+        ],
+        "alive": true
+      },
+      {
+        "id": 3,
+        "hp": 3,
+        "state": "idle",
+        "pos": [
+          14,
+          -6.122265624999998,
+          -25
+        ],
+        "alive": true
+      },
+      {
+        "id": 4,
+        "hp": 3,
+        "state": "idle",
+        "pos": [
+          -7,
+          -7.281640624999997,
+          -36
+        ],
+        "alive": true
+      },
+      {
+        "id": 5,
+        "hp": 3,
+        "state": "idle",
+        "pos": [
+          17,
+          -7.024609374999998,
+          -43
+        ],
+        "alive": true
+      },
+      {
+        "id": 6,
+        "hp": 3,
+        "state": "idle",
+        "pos": [
+          -13,
+          -12.952734374999995,
+          -61
+        ],
+        "alive": true
+      },
+      {
+        "id": 7,
+        "hp": 3,
+        "state": "idle",
+        "pos": [
+          9,
+          -13.373828124999996,
+          -68
+        ],
+        "alive": true
+      },
+      {
+        "id": 99,
+        "hp": 42,
+        "state": "idle",
+        "pos": [
+          0,
+          -12.914453124999994,
+          -73
+        ],
+        "alive": true
+      }
+    ],
+    "camera": [
+      -0.18206041402394632,
+      4.4458403291929605,
+      27.699720317040015
+    ]
+  },
+  "result": "PASS: HTTP/assets/render/movement/jump/excavation/map/help/retry/save-reload",
+  "assets": [
+    {
+      "url": "http://127.0.0.1:4173/bananza-gpt/assets/index-D3k5fNnO.css",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/bananza-gpt/assets/index-SgBpQsJi.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/bananza-gpt/assets/index-D3k5fNnO.css",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/bananza-gpt/assets/index-SgBpQsJi.js",
+      "status": 200
+    }
+  ],
+  "failedRequests": [],
+  "runtimeErrors": [],
+  "finishedAt": "2026-10-25T23:55:45.562Z"
+}

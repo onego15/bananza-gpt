@@ -2,7 +2,7 @@ import {chromium} from 'playwright';
 import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 const browser=await chromium.launch({executablePath:process.env.CHROME_PATH||'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true});
-const page=await browser.newPage({viewport:{width:1280,height:800}}),errors=[],results=[];
+const page=await browser.newPage({viewport:{width:1280,height:800}}),errors=[],results=[];let performancePassed=true;
 page.on('pageerror',e=>errors.push(e.message));
 const log=(name,value)=>{console.log(name,JSON.stringify(value));results.push({name,value});};
 const state=()=>page.evaluate(()=>window.__game.state),sleep=ms=>page.waitForTimeout(ms);
@@ -20,16 +20,16 @@ try{
   const burst=await page.evaluate(()=>{let n=0;for(let i=0;i<250;i++){const x=-22+(i%15)*3,z=23-Math.floor(i/15)*6,y=z>-15?-1:z>-50?-8:-14;n+=window.__game.carve(x,y,z,1.5+(i%3)*.2);}return n;});
   await page.waitForFunction(()=>window.__game.state.dirtyChunks===0,{timeout:60000});await page.evaluate(()=>{const g=window.__game;g.teleport(0,g.ground(0,20,5)+.1,20,Math.PI);g.setCamera(0,.36,8.3);});await sleep(1200);
   const frameTimes=await page.evaluate(()=>new Promise(resolve=>{const times=[];let last=performance.now();function tick(t){times.push(t-last);last=t;if(times.length<180)requestAnimationFrame(tick);else resolve(times.slice(1));}requestAnimationFrame(tick);}));
-  const sorted=[...frameTimes].sort((a,b)=>a-b),fps=1000/(frameTimes.reduce((a,b)=>a+b)/frameTimes.length);log('250-cut stress',{removedSamples:burst,fps,p95FrameMs:sorted[Math.floor(sorted.length*.95)],state:await state()});assert.ok(fps>25);
+  const sorted=[...frameTimes].sort((a,b)=>a-b),fps=1000/(frameTimes.reduce((a,b)=>a+b)/frameTimes.length);log('250-cut stress',{removedSamples:burst,fps,p95FrameMs:sorted[Math.floor(sorted.length*.95)],state:await state()});performancePassed=fps>25;log('performance target',{targetFPS:25,passed:performancePassed});
   const sample=await page.evaluate(()=>window.__game.sample(4,-1,13)),edits=(await state()).edits;await page.evaluate(()=>window.__game.save());
   for(let i=0;i<2;i++){await page.reload();await page.waitForFunction(()=>window.__game?.state?.edits>0);assert.equal((await state()).edits,edits);assert.ok(Math.abs((await page.evaluate(()=>window.__game.sample(4,-1,13)))-sample)<.01);await page.evaluate(()=>window.__game.save());}
   log('two reloads preserve all edits',{edits,sample});
   await page.locator('#playBtn').click();await page.evaluate(()=>window.__game.teleport(0,-24,-30));await sleep(1800);const recovered=await state();const bodyDensity=await page.evaluate(p=>window.__game.sample(p[0],p[1]+1,p[2]),recovered.position);assert.ok(recovered.position[1]>-22&&bodyDensity<.2);log('bedrock recovery',{position:recovered.position,bodyDensity});
   await page.keyboard.press('KeyR');await sleep(700);assert.ok((await state()).position[1]>-1);log('excavated checkpoint remains safe',(await state()).position);
-  await page.keyboard.press('Tab');assert.ok(await page.locator('#map').isVisible());await page.keyboard.press('Tab');await page.keyboard.press('KeyH');assert.ok(await page.locator('#help').isVisible());await page.locator('#closeHelp').click();log('map and guide','PASS');
+  await page.keyboard.press('Tab');assert.ok(await page.locator('#map').isVisible());await page.keyboard.press('Tab');await page.keyboard.press('KeyH');assert.ok(await page.locator('#help').isVisible());await page.locator('#closeHelp').focus();await page.keyboard.press('Enter');log('map and guide','PASS');
   await page.evaluate(()=>{const g=window.__game;g.teleport(-12,g.ground(-12,5,6)+.1,5,Math.PI);});await sleep(400);
   for(let i=0;i<3;i++){await page.keyboard.press('KeyE');await sleep(700);}await page.keyboard.down('KeyW');await sleep(750);await page.keyboard.up('KeyW');await sleep(700);await page.evaluate(()=>window.__game.save());
   const treasure=await page.evaluate(()=>JSON.parse(localStorage.getItem('underbloom-v2')).treasures);log('hidden chamber treasure',{treasure,state:await state()});assert.equal(treasure[0],true);
-  assert.equal(errors.length,0);log('runtime errors',errors);log('assertions','PASS');
+  assert.equal(errors.length,0);log('runtime errors',errors);log('assertions','PASS: functional boundary checks');if(!performancePassed){log('performance failure','Average FPS did not exceed 25; functional checks completed independently');process.exitCode=1;}
 }catch(e){log('FAIL',e.stack);await page.screenshot({path:'test-output/stress-failure.png'});process.exitCode=1;}
 await fs.writeFile('test-output/stress.json',JSON.stringify(results,null,2));await browser.close();
