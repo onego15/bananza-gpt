@@ -6,9 +6,11 @@
 - 状態: **GitHub Pages公開済み**。公開URLの通常起動・描画・操作・掘削・保存、およびエンディングまでの進行検証に成功。
 - 初回公開: 2026-10-26 08:56:12 JST（GitHub Actionsの完了時刻）。
 - 初回公開ゲームのソース: `f138c29ca77a5462232bc0472263ca16361aab1e`。
-- 現在公開中のゲームのソース: `1f04eee0bed7de749d37c106c880b000d8079d40`。
+- 実ブラウザで最終検証したゲーム実装のソース: `1f04eee0bed7de749d37c106c880b000d8079d40`。
+- 最終デプロイのソース: `1b3292a7d5c9f9cab163247ea341da317ce251b3`。記録・試験操作のみの更新で、配信HTML・JS・CSS・ライセンスは実ブラウザで検証したものと完全一致。
 - [初回デプロイ成功](https://github.com/onego15/bananza-gpt/actions/runs/40246891427) / [実行記録](qa-github-actions.json)。CIでも単体テスト8件とビルドが成功しました。
 - [調整版のデプロイ成功](https://github.com/onego15/bananza-gpt/actions/runs/40249495915) / [実行記録](qa-github-actions-final.json)。調整版もCIのテスト8件とビルドに成功。
+- [最終デプロイ成功](https://github.com/onego15/bananza-gpt/actions/runs/40250280051) / [実行記録](qa-github-actions-last.json)。最終pushもテスト・ビルド・デプロイに成功し、公開ファイルのSHA256を再照合済み。
 
 ## 初回公開先での実測
 
@@ -73,6 +75,8 @@
 [最終の通常URLログ](qa-public-deployment-final.json) / [最終公開タイトル](public-title-final.png) / [最終公開ゲーム画面](public-play-final.png)。
 
 最終公開検証の記録確定: **2026-10-26 09:36:52 JST**（時刻ツール）。公開作業開始から53分45秒、ゲーム制作開始から9時間25分1秒。待機を含む時計上の経過です。最終的な記録ファイルのcommit・pushは検証後に行っています。
+
+制作終了・公開記録の最終確定: **2026-10-26 09:39:13 JST**（時刻ツール）。追加の公開作業は56分6秒、制作開始からの総経過は9時間27分22秒。最終Actions成功と公開ファイル再照合を含みます。この記録のcommit・pushは確定後に行い、README・docsのみの更新のため再デプロイを省きます。
 
 確認は `tests/deployment.mjs` で再実行できます。PowerShellの場合:
 
